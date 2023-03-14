@@ -24,6 +24,7 @@ class TestApi extends Component {
               <h2>{post.title}</h2>
               <p>{post.content}</p>
               <h2>{post.user.name}</h2>
+              <h2>{post.user.email}</h2>
             </li>
           ))}
         </ul>
