@@ -1,11 +1,13 @@
 import Header from "./header/Header";
-import TestApi from "./testApi/TestApi";
+import CategoryList from "./category/CategoriesList";
+import AddCategory from "./category/AddCategory";
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <TestApi></TestApi>
+      <AddCategory></AddCategory>
+      <CategoryList></CategoryList>
     </div>
   );
 }
