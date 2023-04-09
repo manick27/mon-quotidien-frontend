@@ -22,8 +22,8 @@ class CategoriesList extends Component {
           {this.state.Categories.map(category => (
             <li key={category.id}>
               <h2>{category.title}</h2>
-              <p>{category.description}</p>
-            </li>
+               {/* <p>{category.description}</p> */}
+             </li>
           ))}
         </ul>
       </div>
